@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    align-items: normal;
+}
+.columnRight{
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.createpost{
+    padding: 15px;
+}
+.postlist{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 35px;
+    justify-content: center;
+}
+.createpostform{
+    width: 60vw;
+    margin: 20px auto;
+    box-shadow: 0 0 2px 2px rgb(193, 192, 192);
+    padding: 30px;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+.posts{
+    box-shadow: 0 0 3px 3px rgb(209,209,209);
+    border-radius: 15px;
+    border: none;
+    background: linear-gradient(180deg,aliceblue,rgb(143 189 215));
+}
+.WelcomeMsg{
+    margin: 50px 20px;
+    padding: 40px;
+}
